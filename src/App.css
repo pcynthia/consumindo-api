@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.list-character {
+  background-color: #5d5d5d;
+  transition: all 0.3s;
+}
+
+.list-character:hover {
+  background-color: #4d4d4d;
+  transform: scale(1.05);
+}
